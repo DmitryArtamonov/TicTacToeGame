@@ -1,0 +1,65 @@
+body {
+    background-color: deepskyblue;
+    text-align: center;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.symbolButton, #newGame, #difficulty{
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    padding: 6px;
+    
+}
+
+.symbolButton {
+    border-radius: 50%;
+    width: 4rem;
+    font-size: 3rem;
+}
+
+#newGame, #difficulty{
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+#field {
+    width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cell {
+
+    width: 150px;
+    height: 150px;
+    font-size: 6rem;
+
+}
+
+#c0, #c1, #c3, #c4, #c6, #c7{
+    border-right: 5px black solid;
+}
+
+#c0, #c1, #c2, #c3, #c4, #c5{
+    border-bottom: 5px black solid;
+}
+
+#result{
+    color: red;
+}
+
+#scores{
+    display: inline-flex;
+
+}
+
+h2, h1{
+    margin: 20px 10px 0 0;
+}
+
